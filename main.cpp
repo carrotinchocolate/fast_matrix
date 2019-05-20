@@ -157,9 +157,9 @@ void TestOperator()
 
     Matrix test_res = test1 * test2;
     ASSERT_EQUAL(test_res.GetValue(0, 0), 32);
-    ASSERT_EQUAL(test_res.GetValue(0, 1), 23);
+    ASSERT_EQUAL(test_res.GetValue(0, 1), 43);
     ASSERT_EQUAL(test_res.GetValue(1, 0), 26);
-    ASSERT_EQUAL(test_res.GetValue(1, 1), 21);
+    ASSERT_EQUAL(test_res.GetValue(1, 1), 42);
 
     if (fails_count == 0)
     {
