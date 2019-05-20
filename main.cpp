@@ -138,7 +138,7 @@ void TestTranspose()
     std::cerr << "----------------------" << std::endl;
 }
 
-void TestOperator*()
+void TestOperator()
 {
     std::cerr << "----------------------" << std::endl;
     int fails_count = 0;
@@ -180,7 +180,7 @@ int main()
     TestGetValue();
     TestSetValue();
     TestTranspose();
-    TestOperator*();
+    TestOperator();
 
     int matrix_height = 0;
     int matrix_width = 0;
