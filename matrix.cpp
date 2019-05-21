@@ -40,7 +40,7 @@ Matrix::Matrix(const size_t height_index, const size_t width_index)
 		{
 			line.push_back(0);
 		}
-		data_.push_back(line);
+		data_.push_back(std::move(line));
 	}
 }
 
